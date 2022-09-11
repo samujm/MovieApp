@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
 
 :root{
     --primary-color: #22254b;
@@ -44,6 +44,7 @@ header{
 main{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .movie{
@@ -53,6 +54,7 @@ main{
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
+    border-radius: 3px;
 }
 
 .movie img {
@@ -64,6 +66,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 0.2rem;
     padding: 0.5rem 1rem 1rem;
     letter-spacing: 0.5px;
 
@@ -104,6 +107,7 @@ main{
     right: 0;
     max-height: 100%;
     transform: translateY(101%);
+    overflow-y: auto;
     transition: transform 0.3s ease-in;
 }
 
